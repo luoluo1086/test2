@@ -1,0 +1,7 @@
+test_type: Agent    # 支持 Agent 和 DataQuality
+testee: LLM
+tasks:
+  - task_type: ImplicitTask
+    metric: SameMeaning
+  - task_type: RandomMathTask 
+    metric: SameMeaning

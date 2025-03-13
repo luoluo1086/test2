@@ -1,0 +1,1 @@
+[{"remaining": 0, "current_case": {"input": "\u4e2d\u56fd\u7684\u9996\u90fd\u662f\u54ea\u91cc\uff1f", "expected": "\u5317\u4eac"}, "model_output": "test", "evaluation_result": {"match": false, "reason": null}}]

@@ -1,0 +1,11 @@
+test_type: DataQuality    # 支持 Agent 和 DataQuality
+tasks:
+  - task_type: ImplicitTask
+  - task_type: RandomMathTask 
+quality_evaluators:
+  - evaluator_type: Realism # 逼真性/真实性
+    evaluator_name: RealismEvaluator
+  - evaluator_type: Validity  # 有效性
+    evaluator_name: ValidityEvaluator
+  - evaluator_type: Diversity  # 多样性
+    evaluator_name: DiversityEvaluator
